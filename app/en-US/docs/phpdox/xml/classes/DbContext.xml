@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="DbContext" namespace="" name="DbContext" abstract="false" final="false" start="7" end="53">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models" file="DbContext.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/DbContext.php" size="1202" time="2016-04-06T12:00:46+02:00" unixtime="1459936846" sha1="fbc8ecafd87465cc5a1c5ab98bf27c7d9ebe3209" relative="models/DbContext.php"/>
+  <docblock>
+    <description compact="This class is responsible for establishing a connection with the the database."/>
+  </docblock>
+  <member name="conn" visibility="public" line="9"/>
+  <member name="__instance" type="{unknown}" default="" constant="null" visibility="private" line="10"/>
+  <member name="db_host" visibility="private" line="11"/>
+  <member name="db_user" visibility="private" line="12"/>
+  <member name="db_pass" visibility="private" line="13"/>
+  <member name="db_name" visibility="private" line="14"/>
+  <constructor name="__construct" start="16" end="31" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="get_instance" start="33" end="33" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="query" start="41" end="51" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="This is a wrapper method for the mysqli class' query method."/>
+      <param description="The SQL query string." type="object" variable="$query_str">
+        <type full="{string}" namespace="" name="{string}"/>
+      </param>
+      <return description="results of the query or -1 if the string passed was an empty string." type="object">
+        <type full="The" namespace="" name="The"/>
+      </return>
+    </docblock>
+    <parameter name="query_str" byreference="false" type="{unknown}"/>
+  </method>
+</class>

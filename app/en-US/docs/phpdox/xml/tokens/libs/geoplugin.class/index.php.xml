@@ -1,0 +1,552 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/libs/geoplugin.class" file="index.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/libs/geoplugin.class/index.php" size="3101" time="2012-12-30T21:25:29+01:00" unixtime="1356899129" sha1="7325ec2dc80042c3b1b93c01ed8ce75f08fd706d" relative="libs/geoplugin.class/index.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2">
+    <token name="T_COMMENT">/*</token>
+  </line>
+  <line no="3">
+    <token name="T_COMMENT">This file is free software: you can redistribute it and/or modify</token>
+  </line>
+  <line no="4">
+    <token name="T_COMMENT">the code under the terms of the GNU General Public License as published by</token>
+  </line>
+  <line no="5">
+    <token name="T_COMMENT">the Free Software Foundation, either version 3 of the License, or</token>
+  </line>
+  <line no="6">
+    <token name="T_COMMENT">(at your option) any later version. </token>
+  </line>
+  <line no="7"/>
+  <line no="8">
+    <token name="T_COMMENT">However, the license header, copyright and author credits </token>
+  </line>
+  <line no="9">
+    <token name="T_COMMENT">must not be modified in any form and always be displayed.</token>
+  </line>
+  <line no="10"/>
+  <line no="11">
+    <token name="T_COMMENT">This class is distributed in the hope that it will be useful,</token>
+  </line>
+  <line no="12">
+    <token name="T_COMMENT">but WITHOUT ANY WARRANTY; without even the implied warranty of</token>
+  </line>
+  <line no="13">
+    <token name="T_COMMENT">MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</token>
+  </line>
+  <line no="14">
+    <token name="T_COMMENT">GNU General Public License for more details.</token>
+  </line>
+  <line no="15"/>
+  <line no="16">
+    <token name="T_COMMENT">@author geoPlugin (gp_support@geoplugin.com)</token>
+  </line>
+  <line no="17">
+    <token name="T_COMMENT">@copyright Copyright geoPlugin (gp_support@geoplugin.com)</token>
+  </line>
+  <line no="18"/>
+  <line no="19">
+    <token name="T_COMMENT">This file is an example PHP file of the geoplugin class</token>
+  </line>
+  <line no="20">
+    <token name="T_COMMENT">to geolocate IP addresses using the free PHP Webservices of</token>
+  </line>
+  <line no="21">
+    <token name="T_COMMENT">http://www.geoplugin.com/</token>
+  </line>
+  <line no="22"/>
+  <line no="23">
+    <token name="T_COMMENT">*/</token>
+  </line>
+  <line no="24"/>
+  <line no="25">
+    <token name="T_REQUIRE_ONCE">require_once</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'geoplugin.class.php'</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="26"/>
+  <line no="27">
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_NEW">new</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">geoPlugin</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="28"/>
+  <line no="29">
+    <token name="T_COMMENT">/* </token>
+  </line>
+  <line no="30">
+    <token name="T_COMMENT">Notes:</token>
+  </line>
+  <line no="31"/>
+  <line no="32">
+    <token name="T_COMMENT">The default base currency is USD (see http://www.geoplugin.com/webservices:currency ).</token>
+  </line>
+  <line no="33">
+    <token name="T_COMMENT">You can change this before the call to geoPlugin::locate with eg:</token>
+  </line>
+  <line no="34">
+    <token name="T_COMMENT">$geoplugin-&gt;currency = 'EUR';</token>
+  </line>
+  <line no="35"/>
+  <line no="36">
+    <token name="T_COMMENT">The default IP to lookup is $_SERVER['REMOTE_ADDR']</token>
+  </line>
+  <line no="37">
+    <token name="T_COMMENT">You can lookup a specific IP address, by entering the IP in the call to geoPlugin::locate</token>
+  </line>
+  <line no="38">
+    <token name="T_COMMENT">eg</token>
+  </line>
+  <line no="39">
+    <token name="T_COMMENT">$geoplugin-&gt;locate('209.85.171.100');</token>
+  </line>
+  <line no="40"/>
+  <line no="41">
+    <token name="T_COMMENT">*/</token>
+  </line>
+  <line no="42"/>
+  <line no="43">
+    <token name="T_COMMENT">//locate the IP</token>
+  </line>
+  <line no="44">
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">locate</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="45"/>
+  <line no="46">
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Geolocation results for </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">ip</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">: &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="47">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">City: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">city</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="48">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Region: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">region</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="49">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Area Code: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">areaCode</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="50">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">DMA Code: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">dmaCode</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="51">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Country Name: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">countryName</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="52">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Country Code: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">countryCode</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="53">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Longitude: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">longitude</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="54">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Latitude: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">latitude</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="55">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Currency Code: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">currencyCode</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="56">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Currency Symbol: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">currencySymbol</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_DOT">.</token>
+  </line>
+  <line no="57">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">Exchange Rate: </token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">currencyConverter</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE"> &lt;br /&gt;\n</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="58"/>
+  <line no="59">
+    <token name="T_COMMENT">/*</token>
+  </line>
+  <line no="60">
+    <token name="T_COMMENT">How to use the in-built currency converter</token>
+  </line>
+  <line no="61">
+    <token name="T_COMMENT">geoPlugin::convert accepts 3 parameters</token>
+  </line>
+  <line no="62">
+    <token name="T_COMMENT">$amount - amount to convert (required)</token>
+  </line>
+  <line no="63">
+    <token name="T_COMMENT">$float - the number of decimal places to round to (default: 2)</token>
+  </line>
+  <line no="64">
+    <token name="T_COMMENT">$symbol - whether to display the geolocated currency symbol in the output (default: true)</token>
+  </line>
+  <line no="65">
+    <token name="T_COMMENT">*/</token>
+  </line>
+  <line no="66">
+    <token name="T_IF">if</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">currency</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_IS_NOT_EQUAL">!=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">currencyCode</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="67">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_COMMENT">//our visitor is not using the same currency as the base currency</token>
+  </line>
+  <line no="68">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;p&gt;At todays rate, US$100 will cost you "</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">convert</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_LNUMBER">100</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">" &lt;/p&gt;\n"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="69">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="70"/>
+  <line no="71">
+    <token name="T_COMMENT">/* Finding places nearby </token>
+  </line>
+  <line no="72">
+    <token name="T_COMMENT">nearby($radius, $maxresults)</token>
+  </line>
+  <line no="73">
+    <token name="T_COMMENT">$radius (optional: default 10)</token>
+  </line>
+  <line no="74">
+    <token name="T_COMMENT">$maxresults (optional: default 5)</token>
+  </line>
+  <line no="75">
+    <token name="T_COMMENT"> */</token>
+  </line>
+  <line no="76">
+    <token name="T_VARIABLE">$nearby</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">nearby</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="77"/>
+  <line no="78">
+    <token name="T_IF">if</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_ISSET">isset</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$nearby</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+    <token name="T_LNUMBER">0</token>
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'geoplugin_place'</token>
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="79"/>
+  <line no="80">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;pre&gt;&lt;p&gt;Some places you may wish to visit near "</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$geoplugin</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">city</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">": &lt;/p&gt;\n"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="81"/>
+  <line no="82">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_FOREACH">foreach</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$nearby</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_AS">as</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$key</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$array</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="83">
+    <token name="T_WHITESPACE">		</token>
+  </line>
+  <line no="84">
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$key</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_PLUS">+</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">1</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">":&lt;br /&gt;"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="85">
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"\t Place: "</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$array</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'geoplugin_place'</token>
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br /&gt;"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="86">
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"\t Region: "</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$array</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'geoplugin_region'</token>
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br /&gt;"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="87">
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"\t Latitude: "</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$array</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'geoplugin_latitude'</token>
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br /&gt;"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="88">
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"\t Longitude: "</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$array</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'geoplugin_longitude'</token>
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br /&gt;"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="89">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="90">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/pre&gt;\n"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="91">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="92"/>
+  <line no="93">
+    <token name="T_CLOSE_TAG">?&gt;</token>
+  </line>
+</source>

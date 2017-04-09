@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/home" file="privacy.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/home/privacy.php" size="6665" time="2016-04-26T06:07:17+02:00" unixtime="1461643637" sha1="235b686d25d1ba2aebc9ab8d32867360568e367f" relative="views/home/privacy.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php </token>
+    <token name="T_REQUIRE_ONCE">require_once</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"includes/head.php"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CLOSE_TAG">?&gt;</token>
+  </line>
+  <line no="2">
+    <token name="T_INLINE_HTML">&lt;div data-role="page" id="pageone"&gt;</token>
+  </line>
+  <line no="3">
+    <token name="T_INLINE_HTML">  &lt;div data-role="header"&gt;&lt;/div&gt;</token>
+  </line>
+  <line no="4"/>
+  <line no="5">
+    <token name="T_INLINE_HTML">  &lt;article&gt;</token>
+  </line>
+  <line no="6">
+    <token name="T_INLINE_HTML">    </token>
+    <token name="T_OPEN_TAG_WITH_ECHO">&lt;?=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">HTML</token>
+    <token name="T_DOUBLE_COLON">::</token>
+    <token name="T_STRING">print_page_header</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"AtatuSoft Terms of Service and Privacy Policy"</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CLOSE_TAG">?&gt;</token>
+  </line>
+  <line no="7"/>
+  <line no="8">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;1. Terms&lt;/h3&gt;</token>
+  </line>
+  <line no="9"/>
+  <line no="10">
+    <token name="T_INLINE_HTML">      &lt;p&gt;By accessing the web site at &lt;a href="http://biblejunction.ml"&gt;http://biblejunction.ml&lt;/a&gt;, you are agreeing to be bound by these web site Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this web site are protected by applicable copyright and trademark law.&lt;/p&gt;</token>
+  </line>
+  <line no="11"/>
+  <line no="12">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;2. Use License&lt;/h3&gt;</token>
+  </line>
+  <line no="13"/>
+  <line no="14">
+    <token name="T_INLINE_HTML">      &lt;ol type="a"&gt;</token>
+  </line>
+  <line no="15">
+    <token name="T_INLINE_HTML">        &lt;li&gt;</token>
+  </line>
+  <line no="16">
+    <token name="T_INLINE_HTML">          Permission is granted to temporarily download one copy of the materials (information or software) on AtatuSoft's web site for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</token>
+  </line>
+  <line no="17"/>
+  <line no="18">
+    <token name="T_INLINE_HTML">          &lt;ol type="i"&gt;</token>
+  </line>
+  <line no="19">
+    <token name="T_INLINE_HTML">            &lt;li&gt;modify or copy the materials;&lt;/li&gt;</token>
+  </line>
+  <line no="20">
+    <token name="T_INLINE_HTML">            &lt;li&gt;use the materials for any commercial purpose, or for any public display (commercial or non-commercial);&lt;/li&gt;</token>
+  </line>
+  <line no="21">
+    <token name="T_INLINE_HTML">            &lt;li&gt;attempt to decompile or reverse engineer any software contained on AtatuSoft's web site;&lt;/li&gt;</token>
+  </line>
+  <line no="22">
+    <token name="T_INLINE_HTML">            &lt;li&gt;remove any copyright or other proprietary notations from the materials; or&lt;/li&gt;</token>
+  </line>
+  <line no="23">
+    <token name="T_INLINE_HTML">            &lt;li&gt;transfer the materials to another person or "mirror" the materials on any other server.&lt;/li&gt;</token>
+  </line>
+  <line no="24">
+    <token name="T_INLINE_HTML">          &lt;/ol&gt;</token>
+  </line>
+  <line no="25">
+    <token name="T_INLINE_HTML">        &lt;/li&gt;</token>
+  </line>
+  <line no="26">
+    <token name="T_INLINE_HTML">        &lt;li&gt;This license shall automatically terminate if you violate any of these restrictions and may be terminated by AtatuSoft at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.&lt;/li&gt;</token>
+  </line>
+  <line no="27">
+    <token name="T_INLINE_HTML">      &lt;/ol&gt;</token>
+  </line>
+  <line no="28"/>
+  <line no="29">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;3. Disclaimer&lt;/h3&gt;</token>
+  </line>
+  <line no="30"/>
+  <line no="31">
+    <token name="T_INLINE_HTML">      &lt;ol type="a"&gt;</token>
+  </line>
+  <line no="32">
+    <token name="T_INLINE_HTML">        &lt;li&gt;The materials on AtatuSoft's web site are provided "as is". AtatuSoft makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, AtatuSoft does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.&lt;/li&gt;</token>
+  </line>
+  <line no="33">
+    <token name="T_INLINE_HTML">      &lt;/ol&gt;</token>
+  </line>
+  <line no="34"/>
+  <line no="35">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;4. Limitations&lt;/h3&gt;</token>
+  </line>
+  <line no="36"/>
+  <line no="37">
+    <token name="T_INLINE_HTML">      &lt;p&gt;In no event shall AtatuSoft or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on AtatuSoft's Internet site, even if AtatuSoft or a AtatuSoft authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.&lt;/p&gt;</token>
+  </line>
+  <line no="38"/>
+  <line no="39">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;5. Revisions and Errata&lt;/h3&gt;</token>
+  </line>
+  <line no="40"/>
+  <line no="41">
+    <token name="T_INLINE_HTML">      &lt;p&gt;The materials appearing on AtatuSoft's web site could include technical, typographical, or photographic errors. AtatuSoft does not warrant that any of the materials on its web site are accurate, complete, or current. AtatuSoft may make changes to the materials contained on its web site at any time without notice. AtatuSoft does not, however, make any commitment to update the materials.&lt;/p&gt;</token>
+  </line>
+  <line no="42"/>
+  <line no="43">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;6. Links&lt;/h3&gt;</token>
+  </line>
+  <line no="44"/>
+  <line no="45">
+    <token name="T_INLINE_HTML">      &lt;p&gt;AtatuSoft has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by AtatuSoft of the site. Use of any such linked web site is at the user's own risk.&lt;/p&gt;</token>
+  </line>
+  <line no="46"/>
+  <line no="47">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;7. Site Terms of Use Modifications&lt;/h3&gt;</token>
+  </line>
+  <line no="48"/>
+  <line no="49">
+    <token name="T_INLINE_HTML">      &lt;p&gt;AtatuSoft may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.&lt;/p&gt;</token>
+  </line>
+  <line no="50"/>
+  <line no="51">
+    <token name="T_INLINE_HTML">    &lt;h3&gt;8. Governing Law&lt;/h3&gt;</token>
+  </line>
+  <line no="52"/>
+  <line no="53">
+    <token name="T_INLINE_HTML">      &lt;p&gt;Any claim relating to AtatuSoft's web site shall be governed by the laws of Halifax, NS Canada without regard to its conflict of law provisions.&lt;/p&gt;</token>
+  </line>
+  <line no="54"/>
+  <line no="55">
+    <token name="T_INLINE_HTML">      &lt;p&gt;General Terms and Conditions applicable to Use of a Web Site.&lt;/p&gt;</token>
+  </line>
+  <line no="56"/>
+  <line no="57">
+    <token name="T_INLINE_HTML">    &lt;h2&gt;Privacy Policy&lt;/h2&gt;</token>
+  </line>
+  <line no="58"/>
+  <line no="59">
+    <token name="T_INLINE_HTML">      &lt;p&gt;Your privacy is important to us, and it is AtatuSoft's policy to respect your privacy regarding any information we may collect while operating our websites. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.&lt;/p&gt;</token>
+  </line>
+  <line no="60"/>
+  <line no="61">
+    <token name="T_INLINE_HTML">      &lt;ul&gt;</token>
+  </line>
+  <line no="62">
+    <token name="T_INLINE_HTML">        &lt;li&gt;Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.&lt;/li&gt;</token>
+  </line>
+  <line no="63">
+    <token name="T_INLINE_HTML">        &lt;li&gt;We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.&lt;/li&gt;</token>
+  </line>
+  <line no="64">
+    <token name="T_INLINE_HTML">        &lt;li&gt;We will only retain personal information as long as necessary for the fulfillment of those purposes.&lt;/li&gt;</token>
+  </line>
+  <line no="65">
+    <token name="T_INLINE_HTML">        &lt;li&gt;We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.&lt;/li&gt;</token>
+  </line>
+  <line no="66">
+    <token name="T_INLINE_HTML">        &lt;li&gt;Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.&lt;/li&gt;</token>
+  </line>
+  <line no="67">
+    <token name="T_INLINE_HTML">        &lt;li&gt;We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.&lt;/li&gt;</token>
+  </line>
+  <line no="68">
+    <token name="T_INLINE_HTML">        &lt;li&gt;We will make readily available to customers information about our policies and practices relating to the management of personal information.&lt;/li&gt;</token>
+  </line>
+  <line no="69">
+    <token name="T_INLINE_HTML">      &lt;/ul&gt;</token>
+  </line>
+  <line no="70"/>
+  <line no="71">
+    <token name="T_INLINE_HTML">      &lt;p&gt;We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. AtatuSoft may change its Privacy Policy from time to time, and at AtatuSoft's sole discretion.&lt;/p&gt;</token>
+  </line>
+  <line no="72"/>
+  <line no="73">
+    <token name="T_INLINE_HTML">  &lt;/article&gt;</token>
+  </line>
+  <line no="74"/>
+  <line no="75">
+    <token name="T_INLINE_HTML">  &lt;div data-role="footer"&gt;&lt;/div&gt;</token>
+  </line>
+  <line no="76">
+    <token name="T_INLINE_HTML">&lt;/div&gt;</token>
+  </line>
+  <line no="77">
+    <token name="T_OPEN_TAG">&lt;?php </token>
+    <token name="T_REQUIRE_ONCE">require_once</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"includes/foot.php"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CLOSE_TAG">?&gt;</token>
+  </line>
+  <line no="78"/>
+</source>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US">
+    <dir name="controllers">
+      <file name="about.php" size="742" time="2016-04-25T10:17:07+02:00" unixtime="1461572227" sha1="58151383e7bafba68bd830482e8445660e1e46e7" xml="tokens/controllers/about.php.xml"/>
+      <file name="api.php" size="3512" time="2016-04-26T11:29:19+02:00" unixtime="1461662959" sha1="12fd2f04b63ea6536de2fa9c5b824da8b5001b36" xml="tokens/controllers/api.php.xml"/>
+      <file name="blog.php" size="539" time="2016-04-22T19:08:03+02:00" unixtime="1461344883" sha1="8a5add06e197acc9d817837497baafc914a34d73" xml="tokens/controllers/blog.php.xml"/>
+      <file name="home.php" size="2347" time="2016-04-26T09:44:11+02:00" unixtime="1461656651" sha1="3f977d763b8dd5c22fcfe83e797033a4dfb5c3db" xml="tokens/controllers/home.php.xml"/>
+      <file name="passage.php" size="2068" time="2016-05-14T07:12:59+02:00" unixtime="1463202779" sha1="189a28516356b354cf193dd4db8d72a455457613" xml="tokens/controllers/passage.php.xml"/>
+      <file name="search.php" size="610" time="2016-04-25T10:17:02+02:00" unixtime="1461572222" sha1="8da0d0460f956178b9fdf04a410f477810ec26ce" xml="tokens/controllers/search.php.xml"/>
+      <file name="sitemap.php" size="501" time="2016-04-22T19:03:47+02:00" unixtime="1461344627" sha1="df71f93ff66f2c0c22caa29fba4f12d5eb6ddd5b" xml="tokens/controllers/sitemap.php.xml"/>
+      <file name="versions.php" size="1160" time="2016-05-14T09:37:14+02:00" unixtime="1463211434" sha1="0f7a211bb63aba14f5ac7a9775978ad96ffc18f4" xml="tokens/controllers/versions.php.xml"/>
+    </dir>
+    <dir name="core">
+      <file name="App.php" size="2209" time="2016-04-25T10:42:02+02:00" unixtime="1461573722" sha1="ab7a2d22188485896e228eb25ee025b4e620a67b" xml="tokens/core/App.php.xml"/>
+      <file name="Config.php" size="2477" time="2016-04-28T09:35:40+02:00" unixtime="1461828940" sha1="7c66458122a74d69647d3afe7f015fa1d2c0fc5c" xml="tokens/core/Config.php.xml"/>
+      <file name="Controller.php" size="942" time="2016-04-25T10:20:26+02:00" unixtime="1461572426" sha1="4d782c786a4eb64022597c291e60b0047b5838b9" xml="tokens/core/Controller.php.xml"/>
+      <file name="HTML.php" size="1560" time="2016-04-26T08:09:00+02:00" unixtime="1461650940" sha1="e2af303da5c598768cad6eac8478d49064c4ac96" xml="tokens/core/HTML.php.xml"/>
+    </dir>
+    <file name="init.php" size="453" time="2016-04-23T18:11:57+02:00" unixtime="1461427917" sha1="b3ea2a335455b07d6f95a19e44b90dff926382f2" xml="tokens/init.php.xml"/>
+    <dir name="libs">
+      <dir name="geoplugin.class">
+        <file name="geoplugin.class.php" size="4437" time="2016-04-25T22:03:47+02:00" unixtime="1461614627" sha1="0d55713f9342a6216d7d92f4f9ba650878cbf58c" xml="tokens/libs/geoplugin.class/geoplugin.class.php.xml"/>
+        <file name="index.php" size="3101" time="2012-12-30T21:25:29+01:00" unixtime="1356899129" sha1="7325ec2dc80042c3b1b93c01ed8ce75f08fd706d" xml="tokens/libs/geoplugin.class/index.php.xml"/>
+      </dir>
+    </dir>
+    <dir name="models">
+      <file name="Bible.php" size="9882" time="2016-05-14T09:54:57+02:00" unixtime="1463212497" sha1="414f79eec26cc1ff31f11c2419d91c6ffc6cee73" xml="tokens/models/Bible.php.xml"/>
+      <file name="DbContext.php" size="1202" time="2016-04-06T12:00:46+02:00" unixtime="1459936846" sha1="fbc8ecafd87465cc5a1c5ab98bf27c7d9ebe3209" xml="tokens/models/DbContext.php.xml"/>
+      <file name="Debugger.php" size="4109" time="2016-04-27T02:32:17+02:00" unixtime="1461717137" sha1="5e90c77a84f224e9f74da2ccf66f3c4a6b33441d" xml="tokens/models/Debugger.php.xml"/>
+      <file name="User.php" size="3179" time="2016-04-27T05:23:08+02:00" unixtime="1461727388" sha1="ba8b025593a602a4ad13a18c6fd2ba154329c32d" xml="tokens/models/User.php.xml"/>
+      <file name="Verse.php" size="0" time="2016-04-06T22:37:19+02:00" unixtime="1459975039" sha1="da39a3ee5e6b4b0d3255bfef95601890afd80709" xml="tokens/models/Verse.php.xml"/>
+    </dir>
+    <dir name="scripts">
+      <file name="functions.php" size="818" time="2016-04-14T22:01:47+02:00" unixtime="1460664107" sha1="0b2c6e7f246ef89541b75c3bd552004c2d91eac7" xml="tokens/scripts/functions.php.xml"/>
+    </dir>
+    <dir name="views">
+      <dir name="about">
+        <file name="faith.php" size="3527" time="2016-04-06T16:00:03+02:00" unixtime="1459951203" sha1="10fa2bf9a082810f6d36ccb48d2dfe7dbf975f8b" xml="tokens/views/about/faith.php.xml"/>
+        <file name="index.php" size="209" time="2016-04-06T16:09:27+02:00" unixtime="1459951767" sha1="17faa21424402226c0cb90ed02245d2ee1a45517" xml="tokens/views/about/index.php.xml"/>
+      </dir>
+      <dir name="blog">
+        <file name="index.php" size="331" time="2016-04-22T19:00:33+02:00" unixtime="1461344433" sha1="9b0f0c0b6d6a8bcb5315eda553f5f4f7330bae2e" xml="tokens/views/blog/index.php.xml"/>
+      </dir>
+      <dir name="help">
+        <file name="index.php" size="0" time="2016-04-05T06:26:22+02:00" unixtime="1459830382" sha1="da39a3ee5e6b4b0d3255bfef95601890afd80709" xml="tokens/views/help/index.php.xml"/>
+      </dir>
+      <dir name="home">
+        <file name="advertise.php" size="5053" time="2016-04-23T07:38:31+02:00" unixtime="1461389911" sha1="0e6e9f9db132ac5961a74764cfd3f357eff1be5b" xml="tokens/views/home/advertise.php.xml"/>
+        <file name="help.php" size="840" time="2016-04-23T07:26:07+02:00" unixtime="1461389167" sha1="4501eb3666b69c1093ce8704823f3c2ebee6ec00" xml="tokens/views/home/help.php.xml"/>
+        <file name="index.php" size="2093" time="2016-04-28T09:51:27+02:00" unixtime="1461829887" sha1="46fe9a087145993ab3fceb484f603748f24e6b83" xml="tokens/views/home/index.php.xml"/>
+        <file name="privacy.php" size="6665" time="2016-04-26T06:07:17+02:00" unixtime="1461643637" sha1="235b686d25d1ba2aebc9ab8d32867360568e367f" xml="tokens/views/home/privacy.php.xml"/>
+        <file name="support.php" size="3675" time="2016-04-23T05:06:32+02:00" unixtime="1461380792" sha1="3c5051b2bb8c2460e78c1d7ddf4372ab58e2a11e" xml="tokens/views/home/support.php.xml"/>
+      </dir>
+      <dir name="links">
+        <file name="index.php" size="0" time="2016-04-05T06:21:30+02:00" unixtime="1459830090" sha1="da39a3ee5e6b4b0d3255bfef95601890afd80709" xml="tokens/views/links/index.php.xml"/>
+      </dir>
+      <dir name="passage">
+        <file name="index.php" size="2219" time="2016-05-14T09:14:29+02:00" unixtime="1463210069" sha1="6b1f622435db37b8e4d26ff9cd308d194837378d" xml="tokens/views/passage/index.php.xml"/>
+      </dir>
+      <dir name="preferences">
+        <file name="index.php" size="241" time="2016-04-06T17:39:17+02:00" unixtime="1459957157" sha1="edda4d2993dfad3036ce2e0ddf0569b785a702c6" xml="tokens/views/preferences/index.php.xml"/>
+      </dir>
+      <dir name="search">
+        <file name="index.php" size="236" time="2016-04-06T17:34:47+02:00" unixtime="1459956887" sha1="2bfd3d562e65166b854e34ff5c16b0d02f4fd5d7" xml="tokens/views/search/index.php.xml"/>
+      </dir>
+      <dir name="sitemap">
+        <file name="index.php" size="271" time="2016-04-06T16:49:42+02:00" unixtime="1459954182" sha1="70c6da1928be9f0b47c491e78dc58761c892f797" xml="tokens/views/sitemap/index.php.xml"/>
+      </dir>
+      <dir name="versions">
+        <file name="index.php" size="435" time="2016-04-22T18:38:30+02:00" unixtime="1461343110" sha1="98725a9f50a143c7d839bd15613fa364cefcbcb9" xml="tokens/views/versions/index.php.xml"/>
+        <file name="specific.php" size="295" time="2016-04-22T18:16:31+02:00" unixtime="1461341791" sha1="b5bce42bad1d9c9088320056894d2ad5a08ef3ec" xml="tokens/views/versions/specific.php.xml"/>
+      </dir>
+    </dir>
+  </dir>
+</source>

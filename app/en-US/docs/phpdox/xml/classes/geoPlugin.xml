@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="geoPlugin" namespace="" name="geoPlugin" abstract="false" final="false" start="29" end="152">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/libs/geoplugin.class" file="geoplugin.class.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/libs/geoplugin.class/geoplugin.class.php" size="4437" time="2016-04-25T22:03:47+02:00" unixtime="1461614627" sha1="0d55713f9342a6216d7d92f4f9ba650878cbf58c" relative="libs/geoplugin.class/geoplugin.class.php"/>
+  <member name="host" type="string" default="'http://www.geoplugin.net/php.gp?ip={IP}&amp;base_currency={CURRENCY}'" visibility="public" line="32"/>
+  <member name="currency" type="string" default="'USD'" visibility="public" line="35"/>
+  <member name="ip" type="{unknown}" default="" constant="null" visibility="public" line="38"/>
+  <member name="city" type="{unknown}" default="" constant="null" visibility="public" line="39"/>
+  <member name="region" type="{unknown}" default="" constant="null" visibility="public" line="40"/>
+  <member name="areaCode" type="{unknown}" default="" constant="null" visibility="public" line="41"/>
+  <member name="dmaCode" type="{unknown}" default="" constant="null" visibility="public" line="42"/>
+  <member name="countryCode" type="{unknown}" default="" constant="null" visibility="public" line="43"/>
+  <member name="countryName" type="{unknown}" default="" constant="null" visibility="public" line="44"/>
+  <member name="continentCode" type="{unknown}" default="" constant="null" visibility="public" line="45"/>
+  <member name="latitude" type="{unknown}" default="" constant="null" visibility="public" line="46"/>
+  <member name="longitude" type="{unknown}" default="" constant="null" visibility="public" line="47"/>
+  <member name="currencyCode" type="{unknown}" default="" constant="null" visibility="public" line="48"/>
+  <member name="currencySymbol" type="{unknown}" default="" constant="null" visibility="public" line="49"/>
+  <member name="currencyConverter" type="{unknown}" default="" constant="null" visibility="public" line="50"/>
+  <method name="geoPlugin" start="52" end="54" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="locate" start="56" end="88" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="ip" byreference="false" type="{unknown}" default="" constant="null"/>
+    <inline>
+      <comment value="set the geoPlugin vars" line="73"/>
+    </inline>
+  </method>
+  <method name="fetch" start="90" end="115" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="host" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="convert" start="117" end="133" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="amount" byreference="false" type="{unknown}"/>
+    <parameter name="float" byreference="false" type="integer" default="2"/>
+    <parameter name="symbol" byreference="false" type="boolean" default="true"/>
+    <inline>
+      <comment value="easily convert amounts to geolocated currency." line="119"/>
+    </inline>
+  </method>
+  <method name="nearby" start="135" end="149" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="radius" byreference="false" type="integer" default="10"/>
+    <parameter name="limit" byreference="false" type="{unknown}" default="" constant="null"/>
+  </method>
+</class>

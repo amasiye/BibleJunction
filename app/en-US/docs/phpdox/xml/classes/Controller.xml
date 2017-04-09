@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Controller" namespace="" name="Controller" abstract="false" final="false" start="5" end="37">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core" file="Controller.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/Controller.php" size="942" time="2016-04-25T10:20:26+02:00" unixtime="1461572426" sha1="4d782c786a4eb64022597c291e60b0047b5838b9" relative="core/Controller.php"/>
+  <docblock>
+    <description compact="The base controller class."/>
+  </docblock>
+  <method name="model" start="13" end="21" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructs a new model by the given model name."/>
+      <param description="name of the model to construct." variable="$model" type="object">
+        <type full="The" namespace="" name="The"/>
+      </param>
+      <return description="The newly constructed model object." type="object">
+        <type full="$model" namespace="" name="$model"/>
+      </return>
+    </docblock>
+    <parameter name="model" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="view" start="28" end="36" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructs a new view by the given view name."/>
+      <param description="name of the view to construct." variable="$view" type="object">
+        <type full="The" namespace="" name="The"/>
+      </param>
+      <param description="array of extra data to pass to the view upon updating it." variable="$data" type="object">
+        <type full="An" namespace="" name="An"/>
+      </param>
+    </docblock>
+    <parameter name="view" byreference="false" type="{unknown}"/>
+    <parameter name="data" byreference="false" type="array" default=""/>
+  </method>
+  <extenders>
+    <extender full="About" namespace="" name="About"/>
+    <extender full="Api" namespace="" name="Api"/>
+    <extender full="Blog" namespace="" name="Blog"/>
+    <extender full="Home" namespace="" name="Home"/>
+    <extender full="Passage" namespace="" name="Passage"/>
+    <extender full="Search" namespace="" name="Search"/>
+    <extender full="SiteMap" namespace="" name="SiteMap"/>
+    <extender full="Versions" namespace="" name="Versions"/>
+  </extenders>
+</class>

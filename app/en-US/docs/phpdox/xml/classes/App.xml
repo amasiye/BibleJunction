@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App" namespace="" name="App" abstract="false" final="false" start="11" end="91">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core" file="App.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/App.php" size="2209" time="2016-04-25T10:42:02+02:00" unixtime="1461573722" sha1="ab7a2d22188485896e228eb25ee025b4e620a67b" relative="core/App.php"/>
+  <docblock>
+    <description compact="The App class is the most essential class of the entire application. It is responsible for the core functionality for the application."/>
+    <since value="0.0.1"/>
+    <version value="0.0.1"/>
+    <package value="bibleapp"/>
+  </docblock>
+  <member name="controller" type="string" default="'home'" visibility="protected" line="13"/>
+  <member name="method" type="string" default="'index'" visibility="protected" line="14"/>
+  <member name="params" type="array" default="" visibility="protected" line="16"/>
+  <member name="db" visibility="protected" line="18"/>
+  <member name="conn" visibility="protected" line="19"/>
+  <constructor name="__construct" start="21" end="55" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="Make a new connection to the database" line="25"/>
+      <comment value="Instantiate our controller object and reassign controller var accordingly" line="39"/>
+      <comment value="If the url isn't empty assign values else assign empty array" line="51"/>
+    </inline>
+  </constructor>
+  <method name="parse_url" start="62" end="74" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Breaks up url into an array of tokens."/>
+      <return description="An array containing each part of the url." type="object">
+        <type full="$url" namespace="" name="$url"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="redirect" start="79" end="82" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Sets the location of the php header method."/>
+    </docblock>
+    <parameter name="path" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="get_country_names" start="87" end="90" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Returns a string array countaining country names."/>
+    </docblock>
+  </method>
+</class>

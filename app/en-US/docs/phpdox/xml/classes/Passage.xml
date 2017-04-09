@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Passage" namespace="" name="Passage" abstract="false" final="false" start="11" end="82">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers" file="passage.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers/passage.php" size="2068" time="2016-05-14T07:12:59+02:00" unixtime="1463202779" sha1="189a28516356b354cf193dd4db8d72a455457613" relative="controllers/passage.php"/>
+  <docblock>
+    <description compact="The Passage controller updates the passage view when an attempt to retrieve scripture from the database is made."/>
+    <since value="0.0.1"/>
+    <version value="0.0.1"/>
+    <package value="bibleapp"/>
+  </docblock>
+  <extends full="Controller" namespace="" name="Controller"/>
+  <method name="index" start="16" end="81" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param description="The user name to assign for this session" type="object" variable="$name">
+        <type full="{string}" namespace="" name="{string}"/>
+      </param>
+    </docblock>
+    <parameter name="version" byreference="false" type="string" default="''"/>
+    <parameter name="book" byreference="false" type="string" default="''"/>
+    <parameter name="chapter" byreference="false" type="string" default="''"/>
+    <parameter name="verse" byreference="false" type="string" default="''"/>
+  </method>
+  <parent full="Controller" namespace="" name="Controller">
+    <method name="model" start="13" end="21" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructs a new model by the given model name."/>
+      <param description="name of the model to construct." variable="$model" type="object">
+        <type full="The" namespace="" name="The"/>
+      </param>
+      <return description="The newly constructed model object." type="object">
+        <type full="$model" namespace="" name="$model"/>
+      </return>
+    </docblock>
+    <parameter name="model" byreference="false" type="{unknown}"/>
+  </method>
+    <method name="view" start="28" end="36" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructs a new view by the given view name."/>
+      <param description="name of the view to construct." variable="$view" type="object">
+        <type full="The" namespace="" name="The"/>
+      </param>
+      <param description="array of extra data to pass to the view upon updating it." variable="$data" type="object">
+        <type full="An" namespace="" name="An"/>
+      </param>
+    </docblock>
+    <parameter name="view" byreference="false" type="{unknown}"/>
+    <parameter name="data" byreference="false" type="array" default=""/>
+  </method>
+  </parent>
+</class>

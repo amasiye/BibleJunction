@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="User" namespace="" name="User" abstract="false" final="false" start="12" end="134">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models" file="User.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/User.php" size="3179" time="2016-04-27T05:23:08+02:00" unixtime="1461727388" sha1="ba8b025593a602a4ad13a18c6fd2ba154329c32d" relative="models/User.php"/>
+  <docblock>
+    <description compact="The User model is responsible for reading and updating all user information from the database."/>
+    <since value="0.0.1"/>
+    <version value="0.0.1"/>
+    <package value="bibleapp"/>
+  </docblock>
+  <member name="name" visibility="public" line="14"/>
+  <member name="email" visibility="public" line="15"/>
+  <member name="registered" visibility="public" line="16"/>
+  <member name="prefs" visibility="public" line="17"/>
+  <constructor name="__construct" start="19" end="24" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="login" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="create" start="32" end="40" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Creates a new user."/>
+      <param description="The login/username of the new user." variable="$login" type="string"/>
+      <return description="bool True on successful creation, otherwise false." type="object">
+        <type full="$success" namespace="" name="$success"/>
+      </return>
+    </docblock>
+    <parameter name="login" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="Creation code goes here" line="37"/>
+    </inline>
+  </method>
+  <method name="subscribe_to_newsletter" start="48" end="87" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Creates a user of type subscriber."/>
+      <param description="The email of the new subscriber." variable="$email" type="string"/>
+      <return description="bool Returns TRUE on success or FALSE | number on failure." type="object">
+        <type full="$success" namespace="" name="$success"/>
+      </return>
+    </docblock>
+    <parameter name="email" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="unsubscribe_from_newsletter" start="95" end="107" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Destroys a newsletter subscription."/>
+      <param description="The email of the subscription to destroy." variable="$email" type="string"/>
+      <return description="bool Returns TRUE on success or FALSE | number on failure." type="object">
+        <type full="$success" namespace="" name="$success"/>
+      </return>
+    </docblock>
+    <parameter name="email" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="user_exists" start="116" end="133" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Performs a check to see if a user is in the database."/>
+      <param description="The email of the user in question." variable="$email" type="string"/>
+      <param description="*OPTIONAL* The login/username of the user in question." variable="$login" type="string"/>
+      <return description="bool True if the user does exists, otherwise false." type="object">
+        <type full="$exists" namespace="" name="$exists"/>
+      </return>
+    </docblock>
+    <parameter name="email" byreference="false" type="{unknown}"/>
+    <parameter name="login" byreference="false" type="string" default="''"/>
+    <inline>
+      <comment value="Prepre SQL statement" line="121"/>
+      <comment value="Submit SQL query and check if the num_rows &gt; 0" line="124"/>
+    </inline>
+  </method>
+</class>

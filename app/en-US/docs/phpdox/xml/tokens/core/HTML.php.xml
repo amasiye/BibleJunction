@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core" file="HTML.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/HTML.php" size="1560" time="2016-04-26T08:09:00+02:00" unixtime="1461650940" sha1="e2af303da5c598768cad6eac8478d49064c4ac96" relative="core/HTML.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2">
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="3">
+    <token name="T_DOC_COMMENT"> * The HTML class contains some useful methods for standardized markup.</token>
+  </line>
+  <line no="4">
+    <token name="T_DOC_COMMENT"> *</token>
+  </line>
+  <line no="5">
+    <token name="T_DOC_COMMENT"> * @since 0.0.1</token>
+  </line>
+  <line no="6">
+    <token name="T_DOC_COMMENT"> * @version 0.0.1</token>
+  </line>
+  <line no="7">
+    <token name="T_DOC_COMMENT"> *</token>
+  </line>
+  <line no="8">
+    <token name="T_DOC_COMMENT"> * @package bibleapp</token>
+  </line>
+  <line no="9">
+    <token name="T_DOC_COMMENT"> */</token>
+  </line>
+  <line no="10">
+    <token name="T_CLASS">class</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">HTML</token>
+  </line>
+  <line no="11">
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="12"/>
+  <line no="13">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="14">
+    <token name="T_DOC_COMMENT">   * Prints header section for a page element.</token>
+  </line>
+  <line no="15">
+    <token name="T_DOC_COMMENT">   * @param $txt String The string of text to appear inside the header section.</token>
+  </line>
+  <line no="16">
+    <token name="T_DOC_COMMENT">   */</token>
+  </line>
+  <line no="17">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STATIC">static</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">print_page_header</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  </line>
+  <line no="18">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="19">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;header&gt;&lt;h3&gt;</token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;/h3&gt;&lt;/header&gt;</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="20"/>
+  <line no="21">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="22">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="23"/>
+  <line no="24">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="25">
+    <token name="T_DOC_COMMENT">   * Prints the header for the article</token>
+  </line>
+  <line no="26">
+    <token name="T_DOC_COMMENT">   *</token>
+  </line>
+  <line no="27">
+    <token name="T_DOC_COMMENT">   * @param $txt String The string of text to appear inside the header section.</token>
+  </line>
+  <line no="28">
+    <token name="T_DOC_COMMENT">   */</token>
+  </line>
+  <line no="29">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STATIC">static</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">print_article_header</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  </line>
+  <line no="30">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="31">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;header class='ui-article-heading'&gt;&lt;h3&gt;</token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;/h3&gt;&lt;/header&gt;</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="32"/>
+  <line no="33">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="34">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="35"/>
+  <line no="36">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="37">
+    <token name="T_DOC_COMMENT">   * Prints the header for the panel</token>
+  </line>
+  <line no="38">
+    <token name="T_DOC_COMMENT">   *</token>
+  </line>
+  <line no="39">
+    <token name="T_DOC_COMMENT">   * @param $txt String The string of text to appear inside the header section.</token>
+  </line>
+  <line no="40">
+    <token name="T_DOC_COMMENT">   */</token>
+  </line>
+  <line no="41">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STATIC">static</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">print_panel_header</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  </line>
+  <line no="42">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="43">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;header class='ui-panel-heading'&gt;</token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;/header&gt;</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="44"/>
+  <line no="45">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="46">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="47"/>
+  <line no="48">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="49">
+    <token name="T_DOC_COMMENT">   * Prints the ribbon for the verse of the day panel.</token>
+  </line>
+  <line no="50">
+    <token name="T_DOC_COMMENT">   *</token>
+  </line>
+  <line no="51">
+    <token name="T_DOC_COMMENT">   * @param $txt String The string of text to appear inside the header section.</token>
+  </line>
+  <line no="52">
+    <token name="T_DOC_COMMENT">   */</token>
+  </line>
+  <line no="53">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STATIC">static</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">print_votd_ribbon</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  </line>
+  <line no="54">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="55">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;span class='ui-votd-heading-ribbon-left'&gt;&lt;/span&gt;&lt;span class='ui-votd-heading'&gt;</token>
+    <token name="T_CURLY_OPEN">{</token>
+    <token name="T_VARIABLE">$txt</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_ENCAPSED_AND_WHITESPACE">&lt;/span&gt;&lt;span class='ui-votd-heading-ribbon-right'&gt;&lt;/span&gt;&lt;span class='ui-votd-heading-ribbon-right-2 '&gt;&lt;/span&gt;</token>
+    <token name="T_PHPDOX_DOUBLE_QUOTES">"</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="56"/>
+  <line no="57">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_ECHO">echo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$display_block</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="58">
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="59">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="60">
+    <token name="T_CLOSE_TAG">?&gt;</token>
+  </line>
+  <line no="61"/>
+</source>

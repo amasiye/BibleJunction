@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - Bible</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">Bible</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/models/Bible.php.xhtml#line13">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>\</small>Bible</h1>
+        <h4>The model class for all bible data. The bible object selects and holds passage specific information, bible version data as well as copyright information.</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Bible
+            {<br/><ul class="none"><li>// members</li><li>public string <a href="#members">$name</a> =
+                        'Matthew';
+                    </li><li>public string <a href="#members">$symbolic_name</a> =
+                        "MAT";
+                    </li><li>public string <a href="#members">$version_name</a> =
+                        'WEB';
+                    </li><li>public  <a href="#members">$version_info</a>;
+                    </li><li>public array <a href="#members">$error</a> =
+                        ;
+                    </li><li>public string <a href="#members">$table</a> =
+                        'hello';
+                    </li><li>public  <a href="#members">$chapters</a>;
+                    </li><li>public  <a href="#members">$verses</a>;
+                    </li><li>private  <a href="#members">$book</a>;
+                    </li><li>private  <a href="#members">$db</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="Bible" href="../classes/Bible/__construct.xhtml">__construct</a>()
+                    </li><li>public String <a title="Bible" href="../classes/Bible/get_table_name.xhtml">get_table_name</a>()
+                    </li><li>public static $names <a title="Bible" href="../classes/Bible/get_bible_version_names.xhtml">get_bible_version_names</a>()
+                    </li><li>public static $symbols <a title="Bible" href="../classes/Bible/get_bible_version_symbols.xhtml">get_bible_version_symbols</a>()
+                    </li><li>public static String <a title="Bible" href="../classes/Bible/get_active_version.xhtml">get_active_version</a>()
+                    </li><li>public static void <a title="Bible" href="../classes/Bible/get_votd.xhtml">get_votd</a>()
+                    </li><li>public static void <a title="Bible" href="../classes/Bible/fwrite_book_names.xhtml">fwrite_book_names</a>()
+                    </li><li>public static $symbolic_name <a title="Bible" href="../classes/Bible/get_symbolic_name.xhtml">get_symbolic_name</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="book">
+              <strong>$book</strong>
+            </li>
+            <li id="db">
+              <strong>$db</strong>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="chapters">
+              <strong>$chapters</strong>
+            </li>
+            <li id="error">
+              <strong>$error</strong>
+            </li>
+            <li id="name">
+              <strong>$name</strong>
+            </li>
+            <li id="symbolic_name">
+              <strong>$symbolic_name</strong>
+            </li>
+            <li id="table">
+              <strong>$table</strong>
+            </li>
+            <li id="verses">
+              <strong>$verses</strong>
+            </li>
+            <li id="version_info">
+              <strong>$version_info</strong>
+            </li>
+            <li id="version_name">
+              <strong>$version_name</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="Bible" href="../classes/Bible/__construct.xhtml">__construct()</a>
+            </li>
+            <li id="fwrite_book_names"><a title="Bible" href="../classes/Bible/fwrite_book_names.xhtml">fwrite_book_names()</a>
+                — Writes the symbolic book names from the database to a file on disc.</li>
+            <li id="get_active_version"><a title="Bible" href="../classes/Bible/get_active_version.xhtml">get_active_version()</a>
+                — Returns the active bible version.</li>
+            <li id="get_bible_version_names"><a title="Bible" href="../classes/Bible/get_bible_version_names.xhtml">get_bible_version_names()</a>
+                — Returns a list of all the available bible versions from the database.</li>
+            <li id="get_bible_version_symbols"><a title="Bible" href="../classes/Bible/get_bible_version_symbols.xhtml">get_bible_version_symbols()</a>
+                — Returns a list of all the available bible versions from the database.</li>
+            <li id="get_symbolic_name"><a title="Bible" href="../classes/Bible/get_symbolic_name.xhtml">get_symbolic_name()</a>
+                — Returns the symbolic name of a given Bible book.</li>
+            <li id="get_table_name"><a title="Bible" href="../classes/Bible/get_table_name.xhtml">get_table_name()</a>
+                — Returns the name of the table containing the bible data related to the version symbol argument. Updates the $version_info attribute.</li>
+            <li id="get_votd"><a title="Bible" href="../classes/Bible/get_votd.xhtml">get_votd()</a>
+                — Returns the Verse of the day.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.8.0 - Copyright (C) 2010 - 2016 by Arne Blankerts</span>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="HTML" namespace="" name="HTML" abstract="false" final="false" start="10" end="59">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core" file="HTML.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/HTML.php" size="1560" time="2016-04-26T08:09:00+02:00" unixtime="1461650940" sha1="e2af303da5c598768cad6eac8478d49064c4ac96" relative="core/HTML.php"/>
+  <docblock>
+    <description compact="The HTML class contains some useful methods for standardized markup."/>
+    <since value="0.0.1"/>
+    <version value="0.0.1"/>
+    <package value="bibleapp"/>
+  </docblock>
+  <method name="print_page_header" start="17" end="22" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Prints header section for a page element."/>
+      <param description="The string of text to appear inside the header section." variable="$txt" type="object">
+        <type full="String" namespace="" name="String"/>
+      </param>
+    </docblock>
+    <parameter name="txt" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="print_article_header" start="29" end="34" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Prints the header for the article"/>
+      <param description="The string of text to appear inside the header section." variable="$txt" type="object">
+        <type full="String" namespace="" name="String"/>
+      </param>
+    </docblock>
+    <parameter name="txt" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="print_panel_header" start="41" end="46" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Prints the header for the panel"/>
+      <param description="The string of text to appear inside the header section." variable="$txt" type="object">
+        <type full="String" namespace="" name="String"/>
+      </param>
+    </docblock>
+    <parameter name="txt" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="print_votd_ribbon" start="53" end="58" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Prints the ribbon for the verse of the day panel."/>
+      <param description="The string of text to appear inside the header section." variable="$txt" type="object">
+        <type full="String" namespace="" name="String"/>
+      </param>
+    </docblock>
+    <parameter name="txt" byreference="false" type="{unknown}"/>
+  </method>
+</class>

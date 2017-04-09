@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US">
+  <namespace name="">
+    <class name="About" src="controllers/about.php" description="The About controller updates the about &amp; faith views." xml="classes/About.xml"/>
+    
+    <class name="Blog" src="controllers/blog.php" description="This class controls all home activity." xml="classes/Blog.xml"/>
+    
+    
+    <class name="Search" src="controllers/search.php" description="The Search controller manages all search interactions between the database model and the search view." xml="classes/Search.xml"/>
+    <class name="SiteMap" src="controllers/sitemap.php" description="This class controls all home activity." xml="classes/SiteMap.xml"/>
+    
+    
+    <class name="Controller" src="core/Controller.php" description="The base controller class." xml="classes/Controller.xml"/>
+    
+    
+    <class name="DbContext" src="models/DbContext.php" description="This class is responsible for establishing a connection with the the database." xml="classes/DbContext.xml"/>
+    
+    
+  <class name="App" src="core/App.php" description="The App class is the most essential class of the entire application. It is responsible for the core functionality for the application." xml="classes/App.xml"/><class name="Api" src="controllers/api.php" description="The Api controller handles all web service requests and provides an extensive and robust api." xml="classes/Api.xml"/><class name="Home" src="controllers/home.php" description="This home controller serves as the default controller. It updates the home view as well as the help, advertise-with-us, support-us &amp; newsletters views." xml="classes/Home.xml"/><class name="Passage" src="controllers/passage.php" description="The Passage controller updates the passage view when an attempt to retrieve scripture from the database is made." xml="classes/Passage.xml"/><class name="HTML" src="core/HTML.php" description="The HTML class contains some useful methods for standardized markup." xml="classes/HTML.xml"/><class name="geoPlugin" src="libs/geoplugin.class/geoplugin.class.php" xml="classes/geoPlugin.xml"/><class name="Debugger" src="models/Debugger.php" description="A useful class for debugging code." xml="classes/Debugger.xml"/><class name="User" src="models/User.php" description="The User model is responsible for reading and updating all user information from the database." xml="classes/User.xml"/><class name="Versions" src="controllers/versions.php" description="This Versions controller updates the versions view and manipulates the Bible model." xml="classes/Versions.xml"/><class name="Bible" src="models/Bible.php" description="The model class for all bible data. The bible object selects and holds passage specific information, bible version data as well as copyright information." xml="classes/Bible.xml"/></namespace>
+</index>

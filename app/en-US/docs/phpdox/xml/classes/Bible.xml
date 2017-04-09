@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Bible" namespace="" name="Bible" abstract="false" final="false" start="13" end="357">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models" file="Bible.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/Bible.php" size="9882" time="2016-05-14T09:54:57+02:00" unixtime="1463212497" sha1="414f79eec26cc1ff31f11c2419d91c6ffc6cee73" relative="models/Bible.php"/>
+  <docblock>
+    <description compact="The model class for all bible data. The bible object selects and holds passage specific information, bible version data as well as copyright information."/>
+    <since value="0.0.1"/>
+    <version value="0.0.1"/>
+    <package value="bibleapp"/>
+  </docblock>
+  <member name="name" type="string" default="'Matthew'" visibility="public" line="15"/>
+  <member name="symbolic_name" type="string" default="&quot;MAT&quot;" visibility="public" line="16"/>
+  <member name="version_name" type="string" default="'WEB'" visibility="public" line="17"/>
+  <member name="version_info" visibility="public" line="18"/>
+  <member name="error" type="array" default="" visibility="public" line="19"/>
+  <member name="table" type="string" default="'hello'" visibility="public" line="20"/>
+  <member name="chapters" visibility="public" line="21"/>
+  <member name="verses" visibility="public" line="22"/>
+  <member name="book" visibility="private" line="24"/>
+  <member name="db" visibility="private" line="25"/>
+  <constructor name="__construct" start="27" end="124" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="db" byreference="false" type="object">
+      <type full="DbContext" namespace="" name="DbContext"/>
+    </parameter>
+    <parameter name="version" byreference="false" type="{unknown}"/>
+    <parameter name="book" byreference="false" type="{unknown}"/>
+    <parameter name="chapter" byreference="false" type="string" default="'1'"/>
+    <parameter name="verse" byreference="false" type="string" default="''"/>
+    <inline>
+      <comment value="Handle underscores for requests via the api/passage/... end points" line="37"/>
+      <comment value="Use book look up translation table to get symbolic name" line="41"/>
+      <comment value="If there is a dash in the verse (i.e verse is a range)" line="49"/>
+      <comment value="Ge the table name for the bible version selected" line="56"/>
+      <comment value="Parse the chapter for a range of chapters or a single chapter" line="59"/>
+    </inline>
+  </constructor>
+  <method name="get_table_name" start="138" end="174" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns the name of the table containing the bible data related to the version symbol argument. Updates the $version_info attribute."/>
+      <param description="The symbolic name of the bible version to be looked" variable="$version_symbol" type="object">up.<type full="String" namespace="" name="String"/></param>
+      <param description="Reference to the class attribute $version_info (this)" variable="$version_info" type="object">is passed so that it is explicit about the side effect
+                     of this function: it modifies the version info.<type full="String" namespace="" name="String"/></param>
+      <return description="The name of the table in the database containing the bible data" type="object">related to the version specified by the $version_symbol parameter.<type full="String" namespace="" name="String"/></return>
+    </docblock>
+    <parameter name="version_symbol" byreference="false" type="String"/>
+    <parameter name="version_info" byreference="true" type="String"/>
+  </method>
+  <method name="get_bible_version_names" start="183" end="189" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Returns a list of all the available bible versions from the database."/>
+      <param description="A DbContext object for database connection." variable="$db" type="object">
+        <type full="DbContext" namespace="" name="DbContext"/>
+      </param>
+      <return description="An array of bible version names." type="object">
+        <type full="$names" namespace="" name="$names"/>
+      </return>
+    </docblock>
+    <parameter name="db" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="get_bible_version_symbols" start="199" end="205" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Returns a list of all the available bible versions from the database."/>
+      <param description="A DbContext object for database connection." variable="$db" type="object">
+        <type full="DbContext" namespace="" name="DbContext"/>
+      </param>
+      <return description="An array of bible version name symbols -" type="object">e.g NIV for New International Version.<type full="$symbols" namespace="" name="$symbols"/></return>
+    </docblock>
+    <parameter name="db" byreference="false" type="object">
+      <type full="DbContext" namespace="" name="DbContext"/>
+    </parameter>
+  </method>
+  <method name="get_active_version" start="213" end="220" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Returns the active bible version."/>
+      <param description="The full name of the active version will" variable="$fullname" type="object">be returned if set to true.<type full="bool" namespace="" name="bool"/></param>
+      <return description="The active bible version" type="object">
+        <type full="String" namespace="" name="String"/>
+      </return>
+    </docblock>
+    <parameter name="fullname" byreference="false" type="boolean" default="false"/>
+    <inline>
+      <comment value="Code for getting the active bible version goes here ..." line="215"/>
+    </inline>
+  </method>
+  <method name="get_votd" start="225" end="293" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Returns the Verse of the day."/>
+    </docblock>
+    <parameter name="options" byreference="false" type="array" default=""/>
+    <inline>
+      <comment value="Get version option" line="232"/>
+    </inline>
+  </method>
+  <method name="fwrite_book_names" start="298" end="327" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Writes the symbolic book names from the database to a file on disc."/>
+    </docblock>
+    <parameter name="table" byreference="false" type="string" default="&quot;eng_web_vpl&quot;"/>
+  </method>
+  <method name="get_symbolic_name" start="334" end="355" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Returns the symbolic name of a given Bible book."/>
+      <param description="The name of the book from the bible." variable="$book" type="string"/>
+      <return description="string The symbolic name of the given book." type="object">
+        <type full="$symbolic_name" namespace="" name="$symbolic_name"/>
+      </return>
+    </docblock>
+    <parameter name="book" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="Get lookup_table" line="340"/>
+      <comment value="Decode JSON string" line="348"/>
+      <comment value="Set symbolic_name" line="351"/>
+    </inline>
+  </method>
+</class>

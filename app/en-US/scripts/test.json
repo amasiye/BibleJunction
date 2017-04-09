@@ -1,0 +1,17 @@
+{
+  "name" : "World English Version",
+  "symbol" : "WEB",
+  "table" : "eng_web_vpl",
+  "about" : "The World English Bible (WEB) is a Public Domain (no copyright) Modern English translation of the Holy Bible. That means that you may freely copy it in any form, including electronic and print formats. The World English Bible is based on the American Standard Version of the Holy Bible first published in 1901, the Biblia Hebraica Stutgartensa Old Testament, and the Greek Majority Text New Testament. It is in draft form, and currently being edited for accuracy and readability.",
+  "publisher" : "Public Domain",
+  "copyright" : "by Public Domain. The name \"World English Bible\" is trademarked"
+}
+
+{
+  "name" : "American Standard Version",
+  "symbol" : "ASV",
+  "table" : "eng_asv_vpl",
+  "about" : "From Wikipedia: The American Standard Version (ASV) is rooted in the work that was done with the Revised Version (RV) (a late 19th-century British revision of the King James Version of 1611). In 1870, an invitation was extended to American religious leaders for scholars to work on the RV project. A year later, Protestant theologian Philip Schaff chose 30 scholars representing the denominations of Baptist, Congregationalist, Dutch Reformed, Friends, Methodist, Episcopal, Presbyterian, Protestant Episcopal, and Unitarian. These scholars began work in 1872.<br>The RV New Testament was released In 1881; the Old Testament was published in 1885. The ASV was published in 1901 by Thomas Nelson & Sons. In 1928, the International Council of Religious Education (the body that later merged with the Federal Council of Churches to form the National Council of Churches) acquired the copyright from Nelson and renewed it the following year.<br>The divine name of the Almighty (the Tetragrammaton) is consistently rendered Jehovah in the ASV Old Testament, rather than LORD as it appears in the King James Bible.<br>The ASV was the basis of four revisions. They were the Revised Standard Version, 1971, the Amplified Bible, 1965, the New American Standard Bible, 1995, and the Recovery Version, 1999. A fifth revision, known as the World English Bible, was published in 2000 and was placed in the public domain. The ASV was also the basis for Kenneth N. Taylor's Bible paraphrase, The Living Bible, 1971.",
+  "publisher" : "Public Domain",
+  "copyright" : "by Public Domain. The name \"American Standard Version\" is trademarked"
+}

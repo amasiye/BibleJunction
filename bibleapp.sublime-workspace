@@ -1,0 +1,1350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"end",
+				"end_verse"
+			],
+			[
+				"sta",
+				"start_verse"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"ve",
+				"version_info"
+			],
+			[
+				"sy",
+				"symbol"
+			],
+			[
+				"ver",
+				"verses"
+			],
+			[
+				"chap",
+				"chapters"
+			],
+			[
+				"is",
+				"is_ok"
+			],
+			[
+				"da",
+				"dash_pos"
+			],
+			[
+				"str",
+				"strrpos"
+			],
+			[
+				"symbo",
+				"symbolic_name"
+			],
+			[
+				"ta",
+				"table_name"
+			],
+			[
+				"vers",
+				"version_name"
+			],
+			[
+				"mys",
+				"mysql_error"
+			],
+			[
+				"version_",
+				"version_info"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"copy",
+				"copyright"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"bag",
+				"background-color"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"from",
+				"fromValue"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"Vid",
+				"Video"
+			],
+			[
+				"vid",
+				"videos"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"ut",
+				"utf8_encode"
+			],
+			[
+				"curren",
+				"current_profile"
+			],
+			[
+				"par",
+				"parentClasses"
+			],
+			[
+				"cat",
+				"catalog_id"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"Vide",
+				"VideoArray"
+			],
+			[
+				"genre",
+				"genre_id"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"opt",
+				"opt_val"
+			],
+			[
+				"o",
+				"options"
+			],
+			[
+				"row",
+				"row_cnt"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"numb",
+				"number_of_tokens"
+			],
+			[
+				"video_",
+				"video_id"
+			],
+			[
+				"to",
+				"tokens"
+			],
+			[
+				"fetc",
+				"fetch_assoc"
+			],
+			[
+				"taglin",
+				"tagline"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"vide",
+				"video_id"
+			],
+			[
+				"fe",
+				"fetch_assoc"
+			],
+			[
+				"tags",
+				"tags_array"
+			],
+			[
+				"tag",
+				"tags"
+			],
+			[
+				"s",
+				"split"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"db",
+				"db_name"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"up",
+				"uploadStatus"
+			],
+			[
+				"new",
+				"newPermalink"
+			],
+			[
+				"file-b",
+				"file-browser-content-images"
+			],
+			[
+				"uplo",
+				"uploading"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"medi",
+				"media-item"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"data",
+				"dataInputTarget"
+			],
+			[
+				"inp",
+				"inputTarget"
+			],
+			[
+				"target",
+				"targetInput"
+			],
+			[
+				"getE",
+				"getElementById"
+			],
+			[
+				"getEle",
+				"getElementsByClassName"
+			],
+			[
+				"media",
+				"mediaItems"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"titl",
+				"titlecard"
+			],
+			[
+				"scre",
+				"screen1"
+			],
+			[
+				"ti",
+				"titlecard-s"
+			],
+			[
+				"starr",
+				"starring"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"uploa",
+				"upload_feedback"
+			],
+			[
+				"_",
+				"_GLOBALS"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"strir",
+				"str_ireplace"
+			],
+			[
+				"upl",
+				"upload_file"
+			],
+			[
+				"tmp",
+				"tmp_name"
+			],
+			[
+				"file",
+				"file_type"
+			],
+			[
+				"allw",
+				"allowed_types"
+			],
+			[
+				"succe",
+				"successful"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"temp",
+				"tempFile"
+			],
+			[
+				"ff",
+				"ffd700"
+			],
+			[
+				"array_co",
+				"array_count_values"
+			],
+			[
+				"ca",
+				"catalog"
+			],
+			[
+				"disp",
+				"display_block"
+			],
+			[
+				"spl_au",
+				"spl_autoload_register"
+			],
+			[
+				"this",
+				"thisIndex"
+			],
+			[
+				"clas",
+				"classNames"
+			],
+			[
+				"max",
+				"maxWidth"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"R",
+				"R-18"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"date",
+				"date_create"
+			],
+			[
+				"t",
+				"thead	Tag"
+			],
+			[
+				"gro",
+				"group_id"
+			],
+			[
+				"login",
+				"login_model"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"jw",
+				"jwplayer-7"
+			],
+			[
+				"run",
+				"runtime"
+			],
+			[
+				"series",
+				"series_season"
+			],
+			[
+				"se",
+				"series_meta"
+			],
+			[
+				"user_",
+				"user_password"
+			],
+			[
+				"url",
+				"urldecode"
+			],
+			[
+				"html",
+				"html_entity_decode"
+			],
+			[
+				"clear",
+				"clearTimout"
+			],
+			[
+				"m",
+				"margin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/bibleapp.css",
+			"settings":
+			{
+				"buffer_size": 5260,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/head.php",
+			"settings":
+			{
+				"buffer_size": 977,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/bibleapp.js",
+			"settings":
+			{
+				"buffer_size": 912,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/en-US/models/Bible.php",
+			"settings":
+			{
+				"buffer_size": 8972,
+				"line_ending": "Windows",
+				"name": "Bible.php"
+			}
+		},
+		{
+			"file": "includes/head-shared.php",
+			"settings":
+			{
+				"buffer_size": 2021,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/en-US/controllers/passage.php",
+			"settings":
+			{
+				"buffer_size": 1694,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/en-US/views/passage/index.php",
+			"settings":
+			{
+				"buffer_size": 1463,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/foot.php",
+			"settings":
+			{
+				"buffer_size": 1344,
+				"line_ending": "Windows",
+				"name": "foot.php"
+			}
+		},
+		{
+			"file": "app/en-US/views/sitemap/index.php",
+			"settings":
+			{
+				"buffer_size": 258,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/atatusoft/bibleapp",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/content",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/core",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/libs",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/models",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/scripts",
+		"/C/xampp/htdocs/atatusoft/bibleapp/includes"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/scripts/test.json",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/Chapter.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/Book.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/scripts/functions.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/Verse.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/home/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/preferences/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/search/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/includes/foot-shared.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/js/main.js",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/Config.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers/home.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/App.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/init.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/HTML.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/site-map/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers/sitemap.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers/search.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/core/Controller.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers/about.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/about/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/includes/head.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/about/faith.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/libs/versions_info.json",
+		"/C/xampp/htdocs/atatusoft/bibleapp/includes/head-shared.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/css/bibleapp.css",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/DbContext.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/passage/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/User.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/DBContext.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/.htaccess",
+		"/C/xampp/htdocs/atatusoft/bibleapp/.htaccess",
+		"/C/xampp/htdocs/atatusoft/currencyapp/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/controllers/passage.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/help/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/links/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/views/version/index.php",
+		"/C/xampp/htdocs/atatusoft/bibleapp/app/en-US/.htaccess",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/.htaccess",
+		"/C/xampp/htdocs/atatusoft/mvc_app/app/.htaccess",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/includes/head-shared.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/home.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/includes/head.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Video.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/browse.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/account.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/account/library.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Category.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/account/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/browse/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/js/test.json",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/browse/genre.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/scripts/upload.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/js/cineflow.js",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/scripts/functions.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Catalog.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/core/Config.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/browse/tv.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/VideoArray.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Register.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/account/edit.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/content/ratings.txt",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/content/genres.txt",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/scripts/sanitize.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/scripts/video-upload.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/scripts/picture-upload.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Carousel.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/includes/file-browser-content-images.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/DbContext.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/watch.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/watch/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/account/delete.php",
+		"/C/Users/a.masiye/OneDrive/School/CSCI 2328/assignments/03/A03_moodleFiles/A3_Q1_2_3.asm",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/account/menu.cpp",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/discover/index.php",
+		"/C/Users/a.masiye/Downloads/smooth-container.xap",
+		"/C/xampp/htdocs/atatusoft/wordpress/wp-config.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/core/HTML.php",
+		"/C/xampp/htdocs/atatusoft/wordpress/wp-cron.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/init.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/test/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/CineflowSpecification.txt",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/User.php",
+		"/C/Users/a.masiye/Desktop/productkey.vbs",
+		"/C/Users/a.masiye/Documents/Programming/Web Programming/Browser Apps/AdBlockAccess/manifest.json",
+		"/C/Irvine/Examples/ch03/AddTwoSum.asm",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/scripts/ipinfo.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/includes/foot-shared.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/includes/foot.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/login/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/login/forgot.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/login/forgot-no-email.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/login.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/discover.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/LogoutModel.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/error.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/error/401.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/error/400.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/browse/family.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/logout/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/plugins/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/plugins/omanel_media_player-v.0.0.1/icon-screen-full.png",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/admin.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/logout.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Logout.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/login/register.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Admin.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/home/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/users/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/account/profile.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/LoginModel.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Watch.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/jwplayer-7.2.2/jwplayer.js",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/controllers/test.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/plugins/omanel_media_player-v.0.0.1/README.txt",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/plugins/omanel_media_player-v.0.0.1/README.txt",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Session.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Hash.php",
+		"/C/xampp/htdocs/atatusoft/cineflow/watch/index.php",
+		"/C/xampp/htdocs/atatusoft/cineflow/plugins/omanel_media_player-v.0.0.1/css/media-player-style.css",
+		"/C/xampp/htdocs/atatusoft/cineflow/styles/cineflow_tablet.css",
+		"/C/xampp/htdocs/atatusoft/cineflow/styles/cineflow_mobile.css",
+		"/C/xampp/htdocs/atatusoft/cineflow/styles/cineflow_default.css",
+		"/C/xampp/htdocs/atatusoft/cineflow/scripts/cineflow_functions.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/models/Series.php",
+		"/C/xampp/htdocs/atatusoft/cineflow.ml/app/views/error/unavailable.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"            # Add the verse\n            array_push($verses, $row['verseText']);",
+			".\");\n",
+			"name",
+			"symbol",
+			"20",
+			"\n.",
+			">\n",
+			"\"></",
+			"require_once",
+			"name=\"from\" ",
+			"></",
+			"\n        case '1': offsetAmount = 80;\n          break;\n        ",
+			"btn",
+			"1232614007",
+			"1047754199",
+			"9E9E9E",
+			"-moz",
+			"navbar",
+			"':'',",
+			"value",
+			"thisIndex",
+			" {",
+			"sql",
+			"5",
+			"tokens",
+			"array_push",
+			"\n      <!--# SEPERATOR -->\n      <div class=\"form-group col-md-12\"></div>\n      ",
+			"TAGS",
+			"RESTRICTIONS",
+			"TAGLINE",
+			">\n",
+			"picOkBtn",
+			"myModal",
+			"242",
+			"ffd700",
+			" #",
+			"btn-pic-binder",
+			"                  ",
+			"echo",
+			"Select",
+			"an",
+			"Image",
+			"catalog",
+			"screen2",
+			" \n",
+			"disabled",
+			"failure",
+			"br",
+			"progress",
+			"btn",
+			"retrieveData",
+			"XMLHttpRequest",
+			"loc",
+			"warning",
+			"#",
+			"333333",
+			"'];\n",
+			"myCarousel",
+			"width .5s;",
+			"transition",
+			"is_public",
+			"video",
+			"tempFile",
+			"btn",
+			"; -->",
+			" // public $",
+			"// public ",
+			"public ",
+			"public",
+			"duration",
+			"vid3->runtime",
+			"vid2->runtime",
+			"  {}",
+			"conn",
+			"doPlayVideo",
+			"doPauseVideo",
+			"doPause",
+			"32px",
+			"video-control",
+			"control",
+			"tags",
+			"loadTimer",
+			");\n",
+			"history",
+			".5s",
+			".5",
+			"5s",
+			"blonde",
+			"75s",
+			".5s",
+			"1s",
+			"?>\n",
+			"brand",
+			"footer",
+			"&nbsp;",
+			".\"",
+			"div",
+			"size",
+			"nav",
+			"brand",
+			"RUNION",
+			"777",
+			" *",
+			"\"",
+			"\";\n",
+			"3A",
+			"container",
+			"Instructer",
+			"enrol",
+			"$db_host, $db_name, ",
+			"hidden",
+			"disabled",
+			"8",
+			"center",
+			"doLoginRequest",
+			"showLoginResults",
+			"check_password",
+			"\";\n",
+			"\"",
+			"validateUsername",
+			".get",
+			"signup",
+			"validateUsername",
+			"validateName",
+			"signup",
+			"db_insert",
+			"yo",
+			"yo dawg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"btnStartTrial",
+			"\"#\"",
+			"my-catalog-1",
+			"width .5s, height .5s;",
+			" -->",
+			"# ",
+			"",
+			"r3",
+			"r2",
+			"db",
+			"pauseVideo",
+			"video-controls",
+			"controls",
+			"taglines",
+			"loadCounter",
+			"5s",
+			".75s",
+			".5s",
+			".75s",
+			".5s",
+			"span",
+			"maxlength",
+			"RUNION",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/bibleapp.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "includes/head.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/bibleapp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/en-US/models/Bible.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Bible.php",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 639.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "includes/head-shared.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								438
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/en-US/controllers/passage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/en-US/views/passage/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "includes/foot.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "foot.php",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 127.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/en-US/views/sitemap/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "bibleapp.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

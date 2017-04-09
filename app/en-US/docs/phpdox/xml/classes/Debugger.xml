@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Debugger" namespace="" name="Debugger" abstract="false" final="false" start="6" end="139">
+  <file path="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models" file="Debugger.php" realpath="C:/xampp/htdocs/atatusoft/bibleapp/app/en-US/models/Debugger.php" size="4109" time="2016-04-27T02:32:17+02:00" unixtime="1461717137" sha1="5e90c77a84f224e9f74da2ccf66f3c4a6b33441d" relative="models/Debugger.php"/>
+  <docblock>
+    <description compact="A useful class for debugging code."/>
+  </docblock>
+  <member name="log_msgs" type="array" default="" visibility="private" line="8"/>
+  <member name="error_msgs" type="array" default="" visibility="private" line="9"/>
+  <method name="log" start="15" end="18" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Updates the message log."/>
+      <param description="The message to be logged." variable="$msg" type="string"/>
+    </docblock>
+    <parameter name="msg" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="error" start="25" end="28" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Updates the error message log."/>
+      <param description="The message to be logged." variable="$msg" type="string"/>
+      <return description="True for a successful write, false otherwise." type="object">
+        <type full="bool" namespace="" name="bool"/>
+      </return>
+    </docblock>
+    <parameter name="msg" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="write_to_file" start="37" end="50" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Writes the contents of the log and error arrays to a file on disc."/>
+      <param description="*OPTIONAL* The name (or) of the file to write to. Will" type="object">create a file if none exists and it is possible to do
+                   so.<type full="[$filename]" namespace="" name="[$filename]"/></param>
+      <return description="True on successful write, false otherwise." type="object">
+        <type full="bool" namespace="" name="bool"/>
+      </return>
+    </docblock>
+    <parameter name="filename" byreference="false" type="string" default="''"/>
+  </method>
+  <method name="get_error_msg" start="60" end="76" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Public accessor method. Provides an encapsulated view of the Debugger class."/>
+      <param description="The type of error." variable="$type" type="string"/>
+      <param description="The numerical code of the error." variable="$code" type="int"/>
+      <return description="The string message corresponding to the type of error passed" type="object">the arguments through.<type full="bool" namespace="" name="bool"/></return>
+    </docblock>
+    <parameter name="type" byreference="false" type="{unknown}"/>
+    <parameter name="code" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="get_http_error_msg" start="78" end="94" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="code" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="get_subscription_error_msg" start="102" end="137" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns the subscription error detail message corresponding to the error code that's passed as through the parameter list."/>
+      <param description="The numerical code of the error." variable="$code" type="int"/>
+      <return description="bool A message string containing error details." type="object">
+        <type full="$msg" namespace="" name="$msg"/>
+      </return>
+    </docblock>
+    <parameter name="code" byreference="false" type="{unknown}"/>
+  </method>
+</class>
